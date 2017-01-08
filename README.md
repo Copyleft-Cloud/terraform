@@ -4,13 +4,9 @@ This Terraform project is part of Copyleft Cloud, an open sourced journey from t
 ---
 
 # Terraform
-Terraform Project
-
-
-## Overview
 Terraform is a tool for building, changing, and versioning infrastructure. We're going to use Terraform to integrate with service providers such as DigitalOcean and AWS to provision and manage our infrastructure as code.
 
-
+## Overview
 When thinking about Infrastructure as a Service (IaaS) and using Infrastructure as Code to achieve that objective we are concerned with thinking about the "Configuration" and "State" of the things we manage... how we use patterns... and the separation of roles (e.g. single role per node). And while we will often reuse patterns and roles to manage the “Configuration" in a consistent manner, we don't dare intermingle the "State" between devices.
 
 So, when thinking about "Platform as a Service" (PaaS) and how best to implement we should approach it with a similar mindset as IaaS considering Configuration, State, and the Separation of Responsibility.
