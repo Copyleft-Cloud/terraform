@@ -1,4 +1,4 @@
-#### Copyleft Cloud
+#### Disclaimer
 This Terraform project is part of Copyleft Cloud, an open sourced journey from the practitioners at Copyleft.io
 
 ---
