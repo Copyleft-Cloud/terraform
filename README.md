@@ -1,8 +1,13 @@
-# terraform
+# Terraform
 Terraform Project
 
+## Copyleft Cloud
+This Terraform project is part of Copyleft Cloud, an open sourced journey from the practitioners at Copyleft.io
+
+
 ## Overview
-Terraform is a tool for building, changing, and versioning infrastructure. We're going to use Terraform to integrate with service providers such as DigitalOcean and AWS to provision and manage our infrastructure as code.  
+Terraform is a tool for building, changing, and versioning infrastructure. We're going to use Terraform to integrate with service providers such as DigitalOcean and AWS to provision and manage our infrastructure as code.
+
 
 When thinking about Infrastructure as a Service (IaaS) and using Infrastructure as Code to achieve that objective we are concerned with thinking about the "Configuration" and "State" of the things we manage... how we use patterns... and the separation of roles (e.g. single role per node). And while we will often reuse patterns and roles to manage the “Configuration" in a consistent manner, we don't dare intermingle the "State" between devices.
 
@@ -16,7 +21,7 @@ State (noun)
 the particular condition that someone or something is in at a specifc time.
 ```
 
-## SUMMARY
+## Summary
 Per our good practices, we are wanting to manage configuration and state separately for each environment as well as provider.  As we will be using both DigitalOcean and AWS as Cloud Hosting providers for our operations and execution environments, we'll set up our directory accordingly to separate these contexts.
 
 
