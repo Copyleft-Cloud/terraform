@@ -1,6 +1,10 @@
-# DO NOT PUSH secret.tfvars
+# DO NOT PUSH GLOBAL secret.tfvars
 # Includes Account IDs, Private Keys, and API Tokens
 global/secret.tfvars
 
 # Do not Push .terraform modules
 */.terraform
+
+# DO NOT PUSH LOCALLY LINKED secret.tfvars
+# Includes Account IDs, Private Keys, and API Tokens
+**/secret.tfvars
